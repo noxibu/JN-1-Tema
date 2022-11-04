@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _1_tema___Justas_Nomeika.Classes
 {
-    internal class GateEvent
+    public class GateEvent
     {
         public int Id { get; set; }
         public string GateTitle { get; set; }

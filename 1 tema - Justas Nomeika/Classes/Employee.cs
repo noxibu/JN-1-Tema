@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1_tema___Justas_Nomeika.Classes
 {
-    internal class Employee
+    public class Employee
     {
         public int Id { get; set; }
         public string FullName { get; set; }

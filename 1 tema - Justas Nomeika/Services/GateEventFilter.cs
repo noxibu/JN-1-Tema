@@ -9,7 +9,7 @@ using _1_tema___Justas_Nomeika.Services;
 
 namespace _1_tema___Justas_Nomeika.Services
 {
-    internal class GateEventFilter
+    public class GateEventFilter
     {
 
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1_tema___Justas_Nomeika.Classes
 {
-    internal class EntryGate
+    public class EntryGate
     {
         public int Id { get; set; }
         public string GateTitle { get; set; }

@@ -28,8 +28,12 @@ namespace _1_tema___Justas_Nomeika
             List<GateEvent> sortedByTime = eventFilter.SortByTime(gateEvents);
             List<GateEvent> filteredEmployee = eventFilter.FilterByEmployee(gateEvents, gateEvents[0].Employee);
 
-            eventFilter.WriteToHTML(sortedByTime);
-            eventFilter.WriteToHTML(filteredEmployee);
+            //eventFilter.WriteToHTML(sortedByTime);
+            //eventFilter.WriteToHTML(filteredEmployee);
+
+            var filteredByEmployee = eventFilter.FilterByEmployee(gateEvents, gateEvents[0].Employee);
+            var testing = filteredByEmployee.Select(x => x.Employee).Distinct().ToList();
+
 
             /*foreach(var f in sortedByTime)
             {

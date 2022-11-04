@@ -9,7 +9,7 @@ using _1_tema___Justas_Nomeika.Repositories;
 
 namespace _1_tema___Justas_Nomeika.Services
 {
-    internal class GateEventGenerator
+    public class GateEventGenerator
     {
 
         public GateEventGenerator()
